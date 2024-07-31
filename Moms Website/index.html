@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link id='favicon' rel="shortcut icon" href="./logo.png" type="image/x-png">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7298813396686401"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Dairy Chef</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Little Dairy Chef Logo">
+        <h1>Little Dairy Chef⠀</h1>
+        <img src="logo.png" alt="Little Dairy Chef Logo">
+    </header>
+    <main>
+        <section id="order-section">
+            <h2>Make an Order</h2>
+            <form id="order-form">
+                <label for="item">Item:</label>
+                <select id="item" required>
+                    <option value="">Select an item</option>
+                </select>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="1" required>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="Number">Phone Number:</label>
+                <input type="number" id="Number" required>
+                <label for="Additional_text">Message: (optional)</label>
+                <input type="text" id="Additional_text">
+                <button type="button" onclick="order()">Order</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

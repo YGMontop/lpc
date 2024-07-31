@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+/* Add styles for the logo */
+header {
+    background-color: #4eb4ed;
+    padding: 1rem;
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Center items vertically */
+}
+
+header img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 1rem; /* Add some spacing between the logo and the title */
+}
+
+header h1 {
+    color: #c7d7e1;
+    margin: 0; /* Remove default margin */
+}
+
+/* Rest of your CSS remains unchanged */
+
+header {
+    background-color: #009af0;
+    padding: 1rem;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+header h1 {
+    color: #fff;
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #8a2be2;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+button:hover {
+    background-color: #cc00cc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom
+}
+
+table tbody {
+    border-bottom: 1px solid #4eb4ed;
+}
+
+table th,
+table td {
+    border-bottom: 1px solid #4eb4ed;
+}
+
+table th:last-child,
+table td:last-child {
+    text-align: right;
+}
